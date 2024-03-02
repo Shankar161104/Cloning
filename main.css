@@ -123,6 +123,11 @@ body {
   background-color: #fff;
   border: none;
 }
+button:hover{
+    color: green;
+    opacity: 0.5;
+    font-size: large;
+}
 #main div+svg{
     position: absolute;
     left: 430px;
