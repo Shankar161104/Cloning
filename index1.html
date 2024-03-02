@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="nav">
+        <ul>
+          <li>WOMEN</li>
+          <li>MEN</li>
+          <li>BRIDAL</li>
+          <li>LUXE</li>
+        </ul>
+        <img src="./imgs/logo.svg" alt="" />
+        <input
+          type="text"
+          placeholder="Search for style,collections and more"
+        />
+        <svg 
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="WhatsApp Line">
+            <path
+              id="Vector"
+              d="M12 1C5.93063 1 1 5.93063 1 12C1 13.9508 1.53502 15.7715 2.4273 17.3608L1.01775 22.3928C0.995229 22.4733 0.994211 22.5583 1.0148 22.6393C1.03538 22.7204 1.07685 22.7946 1.13507 22.8546C1.19329 22.9146 1.26622 22.9583 1.3466 22.9814C1.42697 23.0044 1.51198 23.006 1.59315 22.9859L6.83999 21.6856C8.38175 22.5087 10.1312 22.9999 12 22.9999C18.0693 22.9999 22.9999 18.0693 22.9999 12C22.9999 5.93063 18.0693 1 12 1ZM12 1.95652C17.5523 1.95652 22.0434 6.44759 22.0434 12C22.0434 17.5523 17.5523 22.0434 12 22.0434C10.2199 22.0434 8.55273 21.5793 7.10341 20.7684C6.99741 20.7091 6.87285 20.6924 6.75499 20.7217L2.16015 21.8603L3.39223 17.4644C3.40986 17.4023 3.41473 17.3373 3.40654 17.2732C3.39835 17.2092 3.37728 17.1474 3.34459 17.0917C2.4638 15.5982 1.95652 13.8604 1.95652 12C1.95652 6.44759 6.44759 1.95652 12 1.95652ZM8.00295 6.26085C7.69636 6.26085 7.25852 6.37491 6.89884 6.76246C6.6828 6.99524 5.78259 7.87235 5.78259 9.41437C5.78259 11.0221 6.8976 12.4093 7.03242 12.5875H7.03335V12.5884C7.02056 12.5716 7.20447 12.838 7.44996 13.1573C7.69545 13.4767 8.03873 13.8961 8.47 14.3502C9.33252 15.2583 10.5452 16.3078 12.0504 16.9498C12.7436 17.2449 13.2904 17.4231 13.7047 17.5532C14.4725 17.7943 15.1718 17.7576 15.6971 17.6802C16.0903 17.6223 16.5228 17.4335 16.9507 17.1627C17.3786 16.8919 17.7979 16.5552 17.9829 16.0437C18.1154 15.6769 18.1827 15.338 18.2071 15.0591C18.2192 14.9197 18.2208 14.7966 18.2117 14.6827C18.2027 14.5688 18.2123 14.4815 18.1062 14.3072C17.8835 13.9416 17.6313 13.9321 17.3682 13.8018C17.222 13.7295 16.8058 13.5262 16.3884 13.3273C15.9714 13.1286 15.6103 12.9526 15.3879 12.8733C15.2475 12.8228 15.0759 12.75 14.8284 12.7781C14.5809 12.8061 14.3365 12.9847 14.1942 13.1956C14.0593 13.3956 13.5162 14.0366 13.3507 14.225C13.3485 14.2236 13.3628 14.2303 13.2974 14.1979C13.0927 14.0966 12.8423 14.0104 12.4717 13.8149C12.1011 13.6194 11.6376 13.3308 11.1303 12.8836V12.8827C10.3753 12.218 9.84649 11.3835 9.67966 11.1032C9.6909 11.0899 9.67832 11.106 9.70208 11.0827L9.70301 11.0817C9.87352 10.9138 10.0246 10.7132 10.1523 10.5661C10.3334 10.3576 10.4132 10.1737 10.4998 10.0019C10.6723 9.65957 10.5762 9.28285 10.4764 9.08464V9.0837C10.4833 9.09741 10.4225 8.96309 10.3569 8.80814C10.2911 8.65275 10.2073 8.4513 10.1177 8.23647C9.93868 7.80682 9.73876 7.32494 9.61987 7.04269V7.04176C9.47982 6.70931 9.29033 6.46981 9.0426 6.35426C8.79487 6.23872 8.576 6.27157 8.56714 6.27113H8.56621C8.38942 6.26297 8.19543 6.26085 8.00295 6.26085ZM8.00295 7.21737C8.18734 7.21737 8.36912 7.21962 8.52137 7.22671C8.678 7.23452 8.66826 7.23516 8.63814 7.22111C8.60753 7.20683 8.64905 7.2022 8.73808 7.41353C8.8545 7.68989 9.0554 8.17353 9.23503 8.60451C9.32484 8.82 9.40889 9.02223 9.47602 9.18085C9.54315 9.33946 9.57953 9.42802 9.62174 9.51245V9.51339L9.62268 9.51432C9.66407 9.59598 9.66041 9.5437 9.64603 9.57224C9.5451 9.77254 9.53141 9.82173 9.42932 9.93934C9.27387 10.1184 9.11532 10.3181 9.03139 10.4008C8.95796 10.4729 8.82548 10.5853 8.74275 10.8052C8.6599 11.0255 8.69857 11.3278 8.83149 11.5535C9.00847 11.8539 9.59164 12.8031 10.4979 13.601C11.0687 14.1041 11.6004 14.4371 12.0252 14.6612C12.45 14.8853 12.7959 15.0162 12.8733 15.0545C13.0572 15.1454 13.2581 15.2161 13.4917 15.188C13.7253 15.16 13.9268 15.0182 14.055 14.8733L14.0559 14.8723C14.2266 14.6789 14.7336 14.0999 14.9769 13.743C14.9872 13.7466 14.9839 13.7438 15.0647 13.7729V13.7738H15.0657C15.1026 13.787 15.565 13.994 15.9774 14.1904C16.3897 14.3869 16.8082 14.5911 16.9442 14.6584C17.1404 14.7555 17.2331 14.8188 17.2571 14.8191C17.2587 14.8612 17.2603 14.9068 17.2543 14.976C17.2375 15.1681 17.1862 15.434 17.0833 15.7186C17.033 15.858 16.7706 16.1453 16.4397 16.3547C16.1089 16.5641 15.7062 16.712 15.557 16.734C15.1086 16.8001 14.5762 16.8242 13.9915 16.6406C13.586 16.5133 13.0805 16.3486 12.4259 16.0698C11.0984 15.5037 9.97003 14.5402 9.16403 13.6916C8.76103 13.2673 8.43816 12.8723 8.20845 12.5735C7.97917 12.2752 7.87905 12.12 7.79558 12.0102L7.79464 12.0093C7.64646 11.8133 6.73911 10.5512 6.73911 9.41437C6.73911 8.21119 7.29795 7.73936 7.60035 7.41353C7.7591 7.24248 7.93266 7.21737 8.00295 7.21737Z"
+              fill="#223330"
+            ></path>
+          </g>     </svg>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="12"
+            cy="10"
+            r="5"
+            stroke="#262433"
+            stroke-width="1.2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></circle>
+          <path
+            d="M4.51562 19C6.13015 16.588 8.87966 15 12.0001 15C15.1539 15 17.9288 16.6222 19.5359 19.0777"
+            stroke="#262433"
+            stroke-width="1.2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <circle
+            cx="12"
+            cy="12"
+            r="10.4"
+            stroke="#262433"
+            stroke-width="1.2"
+            stroke-linecap="round"
+          ></circle>
+        </svg>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          onclick="opencart()"
+        >
+          <path
+            d="M20.3551 7.55859H1.89062L3.37752 17.6168C3.68097 19.6814 5.38028 21.206 7.37292 21.206H16.6281C18.6207 21.206 20.3201 19.6814 20.6235 17.6168L22.1104 7.55859H20.3551Z"
+            stroke="#262433"
+            stroke-width="1.2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path
+            d="M7 12V7.64183C7 5.02937 8.60494 2.62444 10.9618 2.11172C14.1717 1.41588 17 4.06496 17 7.4343V12"
+            stroke="#262433"
+            stroke-width="1.2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_3752_21995)">
+            <path
+              d="M17.0564 4.86001C14.1244 5.3376 11.9865 7.90953 11.9865 10.0003C11.9865 7.90953 10.2558 5.40128 6.89628 4.86001C4.11701 4.41425 1.37846 6.66425 1.80604 10.1878C2.54921 16.2904 11.0017 20.5003 11.9865 21.0876C13.0017 20.5003 21.21 16.1525 22.167 10.1878C22.6964 6.89774 20.2429 4.35057 17.0564 4.86001Z"
+              stroke="#262433"
+              stroke-width="1.2"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+          <defs>
+            <clipPath id="clip0_3752_21995">
+              <rect
+                width="22"
+                height="18"
+                fill="white"
+                transform="translate(1 4)"
+              ></rect>
+            </clipPath>
+          </defs>
+        </svg>
+      </section>
+      <section id="sub-nav">
+        <div id="sub-nav-1">
+          <ul>
+            <li>
+              <button id="bestseller">BESTSELLER</button>
+            </li>
+            <li>
+              <button id="saree">SAREE</button>
+            </li>
+            <li>SALWAR KAMEEZ</li>
+            <li>LEHENGAS</li>
+            <li>INDO WESTERN</li>
+            <li>CO-ORD SETS</li>
+            <li><button id="kurtis">KURTIS</button></li>
+            <li>BLOUSE</li>
+            <li>BRIDALS</li>
+            <li>MENS</li>
+            <li>KIDS</li>
+            <li>WEAVES</li>
+            <li>ACCESORIES</li>
+            <li>COLLECTION</li>
+            <li>NEW</li>
+            <li>SALE</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <main id="main">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./imgs/4-slider-tara-sutaria-25-12-23.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imgs/1-slider-banner-festive-spot-light-13-1-24-1.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imgs/2-slider-saree-22-1-24-new.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./imgs/2-slider-suits-15-1-24-US.avif"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <svg
+        class="cmsp264-mx-auto cmsp264-empty:bg-[#E2E8F0] cmsp264-empty:h-[50px]"
+        width="50"
+        height="51"
+        viewBox="0 0 50 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g clip-path="url(#clip0_2_12534)">
+          <path
+            d="M8.49 26.53L4.5 26.5V22"
+            stroke="black"
+            stroke-miterlimit="10"
+          ></path>
+          <path
+            d="M4.5 6V0.5H31.5C32.6046 0.5 33.5 1.39543 33.5 2.5V26.59L19.66 26.56"
+            stroke="black"
+            stroke-miterlimit="10"
+          ></path>
+          <path
+            d="M29.0239 12.4888L24.5994 11.6288C24.5994 11.6288 28.9325 4.15056 29 4L27.18 5.33924L18.1911 12.6123C17.9975 12.7784 18.0916 13.0803 18.3574 13.132L22.7819 13.992C22.7819 13.992 19.5667 19.9707 19.5462 20.1546L18.1911 22.5001L29.1895 13.012C29.3796 12.8417 29.2897 12.5405 29.0239 12.4888Z"
+            fill="black"
+          ></path>
+          <path d="M12 8.5H2" stroke="black" stroke-miterlimit="10"></path>
+          <path d="M12 12.5H-5" stroke="black" stroke-miterlimit="10"></path>
+          <path d="M12 16.5H3" stroke="black" stroke-miterlimit="10"></path>
+          <path
+            d="M38.21 26.5901H33.5"
+            stroke="black"
+            stroke-miterlimit="10"
+          ></path>
+          <path
+            d="M33.0901 6.33008H39.1146C39.7246 6.33008 40.3012 6.60842 40.6806 7.08601L48.2791 16.6506C48.7006 17.1812 48.9301 17.839 48.9301 18.5167V26.5901"
+            stroke="black"
+            stroke-miterlimit="10"
+          ></path>
+          <path
+            d="M36.5701 6.84009V15.7201C36.5701 16.8247 37.4655 17.7201 38.5701 17.7201H48.9301"
+            stroke="black"
+            stroke-miterlimit="10"
+          ></path>
+          <path
+            d="M42.29 30.5501C44.5488 30.5501 46.38 28.719 46.38 26.4601C46.38 24.2013 44.5488 22.3701 42.29 22.3701C40.0311 22.3701 38.2 24.2013 38.2 26.4601C38.2 28.719 40.0311 30.5501 42.29 30.5501Z"
+            stroke="black"
+            stroke-miterlimit="10"
+          ></path>
+          <path
+            d="M12.1901 30.5501C14.4489 30.5501 16.2801 28.719 16.2801 26.4601C16.2801 24.2013 14.4489 22.3701 12.1901 22.3701C9.93125 22.3701 8.1001 24.2013 8.1001 26.4601C8.1001 28.719 9.93125 30.5501 12.1901 30.5501Z"
+            stroke="black"
+            stroke-miterlimit="10"
+          ></path>
+        </g>
+        <defs>
+          <clipPath id="clip0_2_12534">
+            <rect
+              width="54.43"
+              height="31.05"
+              fill="white"
+              transform="translate(-5)"
+            ></rect>
+          </clipPath>
+        </defs>
+      </svg>
+      <p>24-hour Dispatch</p>
+
+      <svg
+        class="cmsp264-mx-auto cmsp264-empty:bg-[#E2E8F0] cmsp264-empty:h-[50px]"
+        width="51"
+        height="50"
+        viewBox="0 0 51 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6.5 25C6.5 14.5066 15.0066 6 25.5 6C35.9934 6 44.5 14.5066 44.5 25C44.5 35.4934 35.9934 44 25.5 44C21.4632 44 17.7204 42.7411 14.6429 40.5944"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path d="M3.5 22L6.26923 25L9.5 22.5" stroke="black"></path>
+        <path
+          d="M25.6765 34L17.2795 29.2084C16.7975 28.9334 16.5 28.4211 16.5 27.8662V21.2364M25.6765 34L33.7433 29.2127C34.2124 28.9343 34.5 28.4292 34.5 27.8837V20.9091M25.6765 34V26.1455M16.5 21.2364L25.6765 26.1455M16.5 21.2364L21.6618 18.2909M34.5 20.9091L26.4374 16.4234C25.965 16.1606 25.3897 16.1637 24.9201 16.4316L21.6618 18.2909M34.5 20.9091L30.0882 23.5273M25.6765 26.1455L30.0882 23.5273M21.6618 18.2909L30.0882 23.5273"
+          stroke="#0F0D1A"
+        ></path>
+      </svg>
+      <p>Easy Returns</p>
+
+      <svg
+        class="cmsp264-mx-auto cmsp264-empty:bg-[#E2E8F0] cmsp264-empty:h-[50px]"
+        width="50"
+        height="51"
+        viewBox="0 0 50 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="12.5"
+          y="4.5"
+          width="25"
+          height="41"
+          rx="4.5"
+          stroke="#262433"
+        ></rect>
+        <circle cx="25.5" cy="40.5" r="2" stroke="#262433"></circle>
+        <g clip-path="url(#clip0_2_12638)">
+          <circle
+            cx="25"
+            cy="18"
+            r="5.4"
+            stroke="#262433"
+            stroke-width="1.2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></circle>
+          <path
+            d="M34.4 33C34.4 38.1915 30.1915 42.4 25 42.4C19.8085 42.4 15.6 38.1915 15.6 33C15.6 27.8085 19.8085 23.6 25 23.6C30.1915 23.6 34.4 27.8085 34.4 33Z"
+            stroke="#262433"
+            stroke-width="1.2"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path d="M16 31.5H34" stroke="black"></path>
+        </g>
+        <path
+          d="M8.78958 19.0132C8.42588 20.286 7.9167 23.2025 8.78958 24.686"
+          stroke="black"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M41.4067 24.6926C41.7258 23.4078 42.1329 20.4753 41.2088 19.0232"
+          stroke="black"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M7 17C6.24538 19.0193 5.1889 23.6464 7 26"
+          stroke="black"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M43.3153 26.0239C43.9272 23.9569 44.6584 19.2674 42.6875 17.0458"
+          stroke="black"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <defs>
+          <clipPath id="clip0_2_12638">
+            <rect
+              width="20"
+              height="20"
+              fill="white"
+              transform="translate(15 12)"
+            ></rect>
+          </clipPath>
+        </defs>
+      </svg>
+      <p>Instant in-store Experience</p>
+
+      <svg
+        class="cmsp264-mx-auto cmsp264-empty:bg-[#E2E8F0] cmsp264-empty:h-[50px]"
+        width="50"
+        height="50"
+        viewBox="0 0 50 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.04 46.7905H45.97C46.82 46.7905 47.51 46.1005 47.51 45.2505V39.7505C47.51 38.9005 46.82 38.2105 45.97 38.2105C45.12 38.2105 44.43 37.5205 44.43 36.6705V7.77047C44.43 6.92047 43.74 6.23047 42.89 6.23047H5.04C4.19 6.23047 3.5 6.92047 3.5 7.77047V27.4705C3.5 28.3205 4.19 29.0105 5.04 29.0105H14.12C14.97 29.0105 15.66 28.3205 15.66 27.4705V20.6105C15.66 19.7605 16.35 19.0705 17.2 19.0705H29.35C30.2 19.0705 30.89 19.7605 30.89 20.6105V35.7905C30.89 36.6405 30.2 37.3305 29.35 37.3305H5.04C4.19 37.3305 3.5 38.0205 3.5 38.8705V45.2705C3.5 46.1205 4.19 46.8105 5.04 46.8105V46.7905Z"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M10.2808 6.24023V17.5402C10.2808 18.3902 9.59078 19.0802 8.74078 19.0802H7.59078C6.74078 19.0802 6.05078 18.3902 6.05078 17.5402V6.24023"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M10.9209 29.0098V31.4398C10.9209 32.2898 10.2309 32.9798 9.38094 32.9798H9.00094C8.15094 32.9798 7.46094 32.2898 7.46094 31.4398V29.0098"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M9.19141 32.9805V35.3205"
+          stroke="#0F0D1A"
+          stroke-linecap="square"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M44.4414 16.3398H45.9814C46.8314 16.3398 47.5214 17.0298 47.5214 17.8798V23.5998C47.5214 24.4498 46.8314 25.1398 45.9814 25.1398H44.4414"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M3.5 41.2891H47.51"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M37.5605 33.5494C39.3996 33.5494 40.8905 30.093 40.8905 25.8294C40.8905 21.5657 39.3996 18.1094 37.5605 18.1094C35.7214 18.1094 34.2305 21.5657 34.2305 25.8294C34.2305 30.093 35.7214 33.5494 37.5605 33.5494Z"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M15.3281 10.3906H35.6681"
+          stroke="#0F0D1A"
+          stroke-linecap="square"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M20.3281 14.6602H40.6681"
+          stroke="#0F0D1A"
+          stroke-linecap="square"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M3.5 22.6699H15.33"
+          stroke="#0F0D1A"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M32.4102 3.5V6.24"
+          stroke="#0F0D1A"
+          stroke-linecap="square"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M25.5 3.5V6.24"
+          stroke="#0F0D1A"
+          stroke-linecap="square"
+          stroke-linejoin="round"
+        ></path>
+        <path
+          d="M39.0703 2.5V6.24"
+          stroke="#0F0D1A"
+          stroke-linecap="square"
+          stroke-linejoin="round"
+        ></path>
+      </svg>
+      <p>Custom Fitting</p>
+    </main>
+    <div id="card">
+      <h2>Season's BestSellers</h2>
+      <img src="./imgs/01-mini-desk-400x533-banner-india-15-1-24.avif" alt="" />
+      <button></button>
+    </div>
+    <div id="card-2">
+      <h2>New In January</h2>
+      <img
+        src="./imgs/02-mini-desk-400x533-banner-india-16-1-24-new.avif"
+        alt=""
+      />
+    </div>
+    <div id="card-3">
+      <h2>New In January</h2>
+      <img src="./imgs/03-mini-desk-400x533-banner-india-15-1-24.avif" alt="" />
+    </div>
+    <div id="card-4">
+      <video
+        width="400"
+        autoplay="autoplay"
+        loop="loop"
+        muted=""
+        defaultmuted=""
+        playsinline=""
+        src="https://www.kalkifashion.com/media/wysiwyg/Web-mini-banner-all-store.mp4"
+        type="video/mp4"
+        allow="accelerometer; autoplay; modestbranding; encrypted-media; gyroscope; picture-in-picture"
+      >
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index1.js"></script>
+  </body>
+</html>

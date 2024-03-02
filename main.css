@@ -1,0 +1,241 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+#nav{
+    /* border: 2px solid; */
+    height: 100px;
+    position: sticky;
+    top: 0;
+    /* background-color: #333; */
+    z-index: 1000;
+}
+
+#nav img{
+    position: absolute;
+    left: 760px;
+    top: 19px;
+    height: 64px;
+    background-color: #fff;
+}
+#nav ul{
+    /* border: 2px solid red; */
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    width: 400px;
+    justify-content: space-between;
+    left: 48px;
+    font-size: 18px;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 600;
+
+
+}
+#nav ul+li:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+
+}
+#nav ul+img+input{
+    position: absolute;
+    left: 1200px;
+    height: 30px;
+    width: 240px;
+    top: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadeInDown 0.6s;
+  }
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+#nav ul+img+input+svg{
+    position: absolute;
+    left: 1460px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+#nav ul+img+input+svg+svg{
+    position: absolute;
+    left: 1510px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+#nav ul+img+input+svg+svg+svg{
+    position: absolute;
+    left: 1560px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+#nav ul+img+input+svg+svg+svg+svg{
+    position: absolute;
+    left: 1610px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+#sub-nav{
+
+    /* border: 2px solid green; */
+    height:52px;
+    list-style: none;
+   
+}
+#sub-nav-1 ul{
+    /* border: 2px solid; */
+    list-style: none;
+    display: flex;
+    
+    width: 1550px;
+    justify-content: space-between;
+    position: absolute;
+    top: 117px;
+    margin: auto;
+    left: 65px;
+    font-family: system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+    font-weight: 600;
+
+}
+#sub-nav-1 ul>li>button{
+  background-color: #fff;
+  border: none;
+}
+#main div+svg{
+    position: absolute;
+    left: 430px;
+    height: 70px;
+    width: 60px;
+}
+#main div+svg+p{
+    position: absolute;
+    left: 400px;
+    top: 789px;
+    font-family: Futura;
+    font-weight: 400;
+}
+#main div+svg+p+svg{
+    position: absolute;
+    left: 690px;
+    height: 70px;
+    width: 60px;
+}
+#main div+svg+p+svg+p{
+    position: absolute;
+    left: 680px;
+    top: 789px;
+    font-family: Futura;
+    font-weight: 400;
+}
+#main div+svg+p+svg+p+svg{
+    position: absolute;
+    left: 910px;
+    height: 70px;
+    width: 60px;
+}
+#main div+svg+p+svg+p+svg+p{
+    position: absolute;
+    left: 910px;
+    top: 789px;
+    font-family: Futura;
+    font-weight: 400;
+}
+#main div+svg+p+svg+p+svg+p+svg{
+    position: absolute;
+    left: 1170px;
+    height: 70px;
+    width: 60px;
+}
+#main div+svg+p+svg+p+svg+p+svg+p{
+    position: absolute;
+    left: 1170px;
+    top: 789px;
+    font-family: Futura;
+    font-weight: 400;
+}
+#card{
+    position: absolute;
+    top: 859px;
+    left: 40px;
+    width: 100%;
+}
+#card-2{
+    position: absolute;
+    top: 859px;
+    left: 365px;
+    width: 100%;
+}
+#card-3{
+    position: absolute;
+    top: 859px;
+    left: 690px;
+    width: 100px;
+}
+#card-4{
+    position: absolute;
+    top: 859px;
+    left: 1090px;
+    /* width: 100%; */
+}
+#card h2{
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    color: white;
+    font-family: Noto Serif Display;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+#card-2 h2{
+    position: absolute;
+    top: 270px;
+    color: white;
+    font-family: Noto Serif Display;
+    font-size: 30px;
+    left:39px;
+    font-weight: 300;
+
+}
+#card-3 h2{
+    position: absolute;
+    top: 270px;
+    color: white;
+    font-family: Noto Serif Display;
+    font-size: 30px;
+    left:39px;
+    font-weight: 300;
+
+}
+
+    
+
+
+
+
+
+
+
+

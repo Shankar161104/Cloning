@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 100px;
+}
+#nav img{
+    position: absolute;
+    left: 760px;
+    top: 19px;
+    height: 64px;
+    background-color: #fff;
+}
+#nav ul{
+    /* border: 2px solid red; */
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    width: 400px;
+    justify-content: space-between;
+    left: 48px;
+    font-size: 18px;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 600;
+
+
+}
+#nav ul+li:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+
+}
+#nav ul+img+input{
+    position: absolute;
+    left: 1200px;
+    height: 30px;
+    width: 240px;
+    top: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+#nav ul+img+input+svg{
+    position: absolute;
+    left: 1460px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+#nav ul+img+input+svg+svg{
+    position: absolute;
+    left: 1510px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+#nav ul+img+input+svg+svg+svg{
+    position: absolute;
+    left: 1560px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+#nav ul+img+input+svg+svg+svg+svg{
+    position: absolute;
+    left: 1610px;
+    top: 32px;
+    width: 30px;
+    height: 27px;
+}
+
+
+
+#demo>img{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    
+}
+#demo img+img{
+    position: absolute;
+    left: 330px;
+
+}
+#demo img+img+img{
+    position: absolute;
+    left: 660px;
+
+}
+#demo img+img+img{
+    position: absolute;
+    left: 680px;
+
+}
+
